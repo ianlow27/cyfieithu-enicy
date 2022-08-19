@@ -1,0 +1,24 @@
+{
+    "name": "ianl28/cyfieithu-enicy",
+    "description": "Dosbarth PHP i gyfieithu testunau oddiwrth Saesneg i Gymraeg gyda rhai o swyddogaethau perthynasol.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "Ianl28\\CyfieithuEnicy\\": "src/"
+      }
+    },
+    "authors": [
+        {
+            "name": "Ian Low",
+            "email": "ianlow28@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "scripts": {
+      "post-status-cmd": "Ianl28\\StarterFiles\\StarterFiles::run"
+    },
+    "require": {
+        "ianl28/starter-files": "dev-main"
+    }
+}
